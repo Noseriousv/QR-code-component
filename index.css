@@ -28,6 +28,9 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
+    -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
 }
 
 .Container-2-white h2 {
