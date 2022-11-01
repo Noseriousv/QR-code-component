@@ -4,10 +4,8 @@
     
 }
 
-.Container-1 {
-    
-    max-width: 1440px;
-    margin: 0 auto;
+body {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,16 +13,16 @@
 
 .imgage { 
     display: flex;
-    width: 18.75rem;
-    border-radius: 1.25rem;
-    margin-bottom: 1.25rem;
+    width: 16rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     
 }
 
 .Container-2-white {
     display: flex;
-    width: 21.875rem;
-    height: 35.625rem;
+    max-width: 310px;
     border-radius: 20px;
     flex-direction: column;
     background-color: white;
@@ -36,70 +34,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:80%;
+    width:85%;
     background-color: white;
     text-align: center;
-    
-    
-    
 
 }
 
-.Container-2-white h4 {
+.Container-2-white p {
     
     background-color: white;
     font-weight: 700;
     color: rgb(149, 153, 153);
-    width: 70%;
+    width: 85%;
     text-align: center;
-    font-size: 15px
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 375px){
-    .Container-1 {
-    
-        max-width: 375px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+   
+
     .imgage { 
-        display: flex;
-        width: 190px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        
+        max-width: 190px;
     }
     .Container-2-white {
-        display: flex;
-        width: 230px;
-        height: 420px;
-        border-radius: 20px;
-        flex-direction: column;
-        background-color: white;
-        justify-content: center;
-        align-items: center;
+        max-width: 220px;
     }
     .Container-2-white h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:80%;
-        background-color: white;
-        text-align: center;
         font-size: medium;
-        
     }
-    
-    .Container-2-white h4 {
-        
-        background-color: white;
-        font-weight: 700;
-        color: rgb(149, 153, 153);
-        width: 80%;
-        text-align: center;
-        font-size: 15px
+    .Container-2-white p {
+        font-size: medium;
     }
+
+        
 }
